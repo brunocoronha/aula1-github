@@ -1,5 +1,6 @@
 package entities;
 public class Product {
+	
 	public String name;
 	public double price;
 	public int quantity;
@@ -21,4 +22,5 @@ public class Product {
 				+ " units, Total: $ "
 				+ String.format("%.2f", totalValueInStock());
 	}
+	
 }
